@@ -1,5 +1,7 @@
 import { FaTrash, FaUserAlt } from 'react-icons/fa';
+
 import css from './Contact.module.css';
+
 function Contact({ name, number, onDeleteContact }) {
   return (
     <>

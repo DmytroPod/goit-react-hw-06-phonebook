@@ -1,9 +1,12 @@
-import css from './ContactForm.module.css';
+import { useState } from 'react';
+
 import { useDispatch, useSelector } from 'react-redux';
+
 import { Report } from 'notiflix';
 import { nanoid } from 'nanoid';
 
-import { useState } from 'react';
+import css from './ContactForm.module.css';
+
 import { addContact, getContacts } from '../../../redux/contacts-slice';
 
 export default function ContactForm() {
